@@ -5,10 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "server": "nodemon server",
+    "start": "node server.js"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
     "core-js": "^3.8.3",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^6.4.3",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -39,5 +47,9 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
 }
